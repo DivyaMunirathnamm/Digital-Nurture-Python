@@ -1,0 +1,4 @@
+Installed Python Extension in VS Code.
+Created Python file.
+Verified IntelliSense.
+Executed program using Ctrl+F5.

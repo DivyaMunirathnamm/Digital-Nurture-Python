@@ -1,0 +1,4 @@
+1. Installed Jupyter Notebook
+2. Created a new notebook
+3. Added code cell
+4. Added markdown/math cell
