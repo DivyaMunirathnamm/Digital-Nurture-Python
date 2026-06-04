@@ -96,7 +96,9 @@ FROM Sessions
 GROUP BY event_id;
 ```
 ## OUTPUT
-<img width="1216" height="1075" alt="image" src="https://github.com/user-attachments/assets/f999fba4-bc22-495d-a30d-c5c3d5477353" />
+
+<img width="1211" height="1076" alt="image" src="https://github.com/user-attachments/assets/e51b4a2b-1654-42ee-9433-4f1d34a6e90c" />
+
 
 
 ## SQL Concepts Demonstrated
