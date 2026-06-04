@@ -20,7 +20,7 @@ The screenshots are provided for demonstration and verification purposes and do 
 
 Demonstrates the use of while loops and control flow.
 # CODE:
-```
+```.c
 def countdown(count):
     if count <= 0:
         print("Invalid count")
@@ -39,7 +39,7 @@ countdown(5)
 
 Demonstrates object-oriented programming concepts using classes and multiple objects.
 # CODE:
-```
+```.c
 class Employee:
     def __init__(self, name):
         self.name = name
@@ -63,7 +63,7 @@ emp2.display()
 
 Demonstrates classes, dictionaries, JSON file handling, and data management.
 # CODE:
-```
+```.c
 import json
 
 class Employee:
@@ -105,7 +105,7 @@ for emp_id, details in loaded.items():
 Demonstrates CSV file processing, list comprehensions, filtering, and average salary calculation.
 
 # CODE:
-```
+```.c
 import json
 
 class Employee:
@@ -146,7 +146,7 @@ for emp_id, details in loaded.items():
 
 Demonstrates functions, user input, arithmetic operations, and exception handling.
 # CODE:
-```
+```.c
 def calculate(a, b, op):
     try:
         if op == "+":
