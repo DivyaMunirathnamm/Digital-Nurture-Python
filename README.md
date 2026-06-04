@@ -61,7 +61,7 @@ A collection of Python and SQL solutions completed as part of Cognizant Digital 
 
 ```
 Python?Upskilling
-Solutions/Python Solutions/SQL Solutions
+Solutions/Python solutions/SQL solutions/README.md
 README.md
 ```
 
