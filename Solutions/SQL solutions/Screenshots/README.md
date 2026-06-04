@@ -64,13 +64,11 @@ VALUES
 
 <img width="1211" height="1075" alt="image" src="https://github.com/user-attachments/assets/32b500f9-4136-4d5d-9fd6-7d914dc0e57a" />
 
+### Question 1 - User Upcoming Events
 
-### QA1 - User Upcoming Events
-
-Shows all upcoming events a user is registered for in their city.
+Show a list of all upcoming events a user is registered for in their city, sorted by date.
 
 #### CODE
-
 ```sql
 SELECT u.full_name, e.title, e.city, e.start_date
 FROM Users u
@@ -85,12 +83,11 @@ ORDER BY e.start_date;
 
 <img width="1208" height="1075" alt="image" src="https://github.com/user-attachments/assets/45843283-743f-4731-94f2-f8713808230a" />
 
-## QA24 - Average Session Duration per Event 
+### Question 24 - Average Session Duration per Event
 
-Compute the average duration (in minutes) of sessions in each event. 
+Compute the average duration (in minutes) of sessions in each event.
 
-## CODE
-
+#### CODE
 ```sql
 SELECT event_id,
 AVG(TIMESTAMPDIFF(MINUTE,start_time,end_time))
